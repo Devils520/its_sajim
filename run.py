@@ -6,13 +6,30 @@ import sys
 os.system("clear")
 
 print('''\033[91m
- ____             
-/ __ \          (_)     
-| |_) |         
-|  _ < / _` / __| |/ __|
-| |_) | (_| \__ \ | (__ 
-|____/ \__,_|___/_|\___|  create by (Sajim) 
-''')
+           ,   ,
+         ,-`{-`/
+      ,-~ , \ {-~~-,
+    ,~  ,   ,`,-~~-,`,
+  ,`   ,   { {      } }                                             }/
+ ;     ,--/`\ \    / /                                     }/      /,/
+;  ,-./      \ \  { {  (                                  /,;    ,/ ,/
+; /   `       } } `, `-`-.___                            / `,  ,/  `,/
+ \|         ,`,`    `~.___,---}                         / ,`,,/  ,`,;
+  `        { {                                     __  /  ,`/   ,`,;
+        /   \ \                                 _,`, `{  `,{   `,`;`
+       {     } }       /~\         .-:::-.     (--,   ;\ `,}  `,`;
+       \\._./ /      /` , \      ,:::::::::,     `~;   \},/  `,`;     ,-=-
+        `-..-`      /. `  .\_   ;:::::::::::;  __,{     `/  `,`;     {
+                   / , ~ . ^ `~`\:::::::::::<<~>-,,`,    `-,  ``,_    }
+                /~~ . `  . ~  , .`~~\:::::::;    _-~  ;__,        `,-`
+       /`\    /~,  . ~ , '  `  ,  .` \::::;`   <<<~```   ``-,,__   ;
+      /` .`\ /` .  ^  ,  ~  ,  . ` . ~\~                       \\, `,__
+     / ` , ,`\.  ` ~  ,  ^ ,  `  ~ . . ``~~~`,                   `-`--, \
+    / , ~ . ~ \ , ` .  ^  `  , . ^   .   , ` .`-,___,---,__            ``
+  /` ` . ~ . ` `\ `  ~  ,  .  ,  `  ,  . ~  ^  ,  .  ~  , .`~---,___
+/` . `  ,  . ~ , \  `  ~  ,  .  ^  ,  ~  .  `  ,  ~  .  ^  ,  ~  .  `-,
+
+                                               -SAJIM PK''')
 def slowprint(s):
     for c in s + '\n' :
         sys.stdout.write(c)
@@ -57,55 +74,53 @@ choice = input("\033[93mDo You Want to Install All Packages [y/n] : ")
 if choice == 'n' : sys.exit()
 if choice == 'y' : os.system ("apt update")
 os.system ("apt upgrade -y")
-slowprint(''' WAIT FOR NEXT...create by sajim''')
+slowprint('''\033[93m WAIT FOR NEXT...create by sajim''')
 os.system ("apt install python -y")
-slowprint(''' WAIT FOR NEXT...create by sajim''')
+slowprint('''\033[96m WAIT FOR NEXT...create by sajim''')
 os.system ("apt install python2 -y")
-slowprint(''' WAIT FOR NEXT...create by sajim''')
+slowprint('''\033[93m WAIT FOR NEXT...create by sajim''')
 os.system ("apt install php -y")
-slowprint('''033[96m WAIT FOR NEXT...create by sajim''')
+slowprint('''\033[96m WAIT FOR NEXT...create by sajim''')
 os.system ("apt install python-dev -y")
-slowprint('''033[93m WAIT FOR NEXT...create by sajim''')
+slowprint('''\033[93m WAIT FOR NEXT...create by sajim''')
 os.system ("apt install python3 -y")
-slowprint('''033[96m WAIT FOR NEXT...create by sajim''')
+slowprint('''\033[96m WAIT FOR NEXT...create by sajim''')
 os.system ("apt install java -y")
-slowprint('''033[93m WAIT FOR NEXT...create by sajim''')
+slowprint('''\033[93m WAIT FOR NEXT...create by sajim''')
 os.system ("apt install git -y")
-slowprint('''033[96m WAIT FOR NEXT...create by sajim''')
+slowprint('''\033[96m WAIT FOR NEXT...create by sajim''')
 os.system ("apt install perl -y")
-slowprint('''033[93m WAIT FOR NEXT...create by sajim''')
+slowprint('''\033[93m WAIT FOR NEXT...create by sajim''')
 os.system ("apt install bash")
-slowprint('''033[96m WAIT FOR NEXT...create by sajim''')
-print ("wait for second and start hacking")
-slowprint('''033[93m WAIT FOR NEXT...create by sajim''')
+slowprint('''\033[96m WAIT FOR NEXT...create by sajim''')
 os.system ("apt install nano -y")
-slowprint('''033[96m WAIT FOR NEXT...create by sajim''')
+slowprint('''\033[96m WAIT FOR NEXT...create by sajim''')
 os.system ("apt install curl -y")
-slowprint('''033[93m WAIT FOR NEXT...create by sajim''')
+slowprint('''\033[93m WAIT FOR NEXT...create by sajim''')
 os.system ("apt install openssl -y")
-slowprint('''033[96mWAIT FOR NEXT...create by sajim''')
+slowprint('''\033[96mWAIT FOR NEXT...create by sajim''')
 os.system ("apt install openssh -y")
-slowprint('''033[93m WAIT FOR NEXT...create by sajim''')
+slowprint('''\33[93m WAIT FOR NEXT...create by sajim''')
 os.system ("apt install wget -y")
-slowprint('''033[96m WAIT FOR NEXT...create by sajim''')
+slowprint('''\033[96m WAIT FOR NEXT...create by sajim''')
 os.system ("apt install clang -y")
-slowprint('''033[93m WAIT FOR NEXT...create by sajim''')
+slowprint('''\033[93m WAIT FOR NEXT...create by sajim''')
 os.system ("apt install nmap -y")
-slowprint('''033[96m WAIT FOR NEXT...create by sajim''')
+slowprint('''\033[96m WAIT FOR NEXT...create by sajim''')
 os.system ("apt install w3m -y")
-slowprint('''033[93m WAIT FOR NEXT...create by sajim''')
+slowprint('''\033[93m WAIT FOR NEXT...create by sajim''')
 os.system ("apt install hydra -y")
-slowprint('''033[96m Insttaling hydra tool...create by sajim''')
+slowprint('''\033[96m Insttaling hydra tool...create by sajim''')
 os.system ("apt install ruby -y")
-slowprint('''033[93m WAIT FOR NEXT...create by sajim''')
+slowprint('''\033[93m WAIT FOR NEXT...create by sajim''')
 os.system ("apt install macchanger -y")
-slowprint('''033[96m WAIT FOR NEXT...create by sajim''')
+slowprint('''\033[96m WAIT FOR NEXT...create by sajim''')
 os.system ("apt install host -y")
-slowprint('''033[93m WAIT FOR NEXT...create by sajim''')
+slowprint('''\033[93m WAIT FOR NEXT...create by sajim''')
 os.system ("apt install dnsutils -y")
-slowprint('''033[96m WAIT FOR NEXT...create by sajim''')
+slowprint('''\033[96m WAIT FOR NEXT...create by sajim''')
 os.system ("apt install coreutils -y")
-slowprint('''033[93m ("Allow the Button For Access the Storage in Termux")''')
+slowprint('''\033[93m ("Allow the Button For Access the Storage in Termux")''')
 
 os.system ("termux-setup-storage")
 
@@ -116,7 +131,7 @@ def slowprint(s):
         sys.stdout.write(c)
         sys.stdout.flush()
         time.sleep(8. / 100)
-slowprint('''\033[ {All Compelete}
+slowprint('''[ {All Compelete}
 ''')
 
 input("\n\nPress the enter key to exit : ")
