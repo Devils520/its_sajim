@@ -9,7 +9,7 @@ def slowprint1(s):
     for c in s + '\n' :
         sys.stdout.write(c)
         sys.stdout.flush()
-        time.sleep(1.5. / 100)
+        time.sleep(2. / 100)
 slowprint1('''\033[91m
  ________  ________        ___  ___  _____ ______      
 |\   ____\|\   __  \      |\  \|\  \|\   _ \  _   \    
