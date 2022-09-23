@@ -122,8 +122,13 @@ def slowprint(s):
         sys.stdout.write(c)
         sys.stdout.flush()
         time.sleep(3. / 100)
-slowprint('''[ {All Compelete
-Coded By Sajim STAY WITH US
+slowprint('''
+   _   _   _   _  
+  / \ / \ / \ / \ 
+ ( d | o | n | e )
+  \_/ \_/ \_/ \_/ 
+
+Coded By "Sajim" STAY WITH US
 
 ███████╗ █████╗      ██╗██╗███╗   ███╗
 ██╔════╝██╔══██╗     ██║██║████╗ ████║
