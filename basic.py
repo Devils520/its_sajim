@@ -52,7 +52,7 @@ slowprint(''' \033[93m
 slowprint('''\033[96m
 access Storage in Termux
 [\033] termux-setup-storage''')
-print ("                                            ")
+print ("                                            
 choice = input("\033[93mDo You Want to Install All Packages [y/n] : ")
 if choice == 'n' : sys.exit()
 if choice == 'y' : os.system ("apt update")
