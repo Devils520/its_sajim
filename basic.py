@@ -52,14 +52,13 @@ slowprint(''' \033[93m
 slowprint('''\033[96m
 access Storage in Termux
 [\033] termux-setup-storage''')
-choice = input("\033[93m Do You Want to Install All Packages [y/n] : ")
+choice = input("Do You Want to Install All Packages [y/n] : ")
 if choice == 'n' : sys.exit()
 if choice == 'y' : os.system ("apt update")
-
 os.system ("apt upgrade -y")
-slowprint('''\033[ WAIT FOR NEXT...create by sajim''')
+slowprint('''\033[91m WAIT FOR NEXT...create by sajim''')
 os.system ("apt install python -y")
-slowprint('''\033[ WAIT FOR NEXT...create by sajim''')
+slowprint('''\033[91m WAIT FOR NEXT...create by sajim''')
 os.system ("apt install python2 -y")
 slowprint('''\033[ WAIT FOR NEXT...create by sajim''')
 os.system ("apt install php -y")
