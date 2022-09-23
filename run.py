@@ -27,11 +27,11 @@ def slowprint(s):
         sys.stdout.write(c)
         sys.stdout.flush()
         time.sleep(3. / 100)
-print (''' \033[95m
+slowprint(''' \033[95m
 +--------------------------------------+
 | This Tool Install All Basic Packages |
 +--------------------------------------+
-| Coded By Sajim | version 2.1|
+| Coded By Sajim STAY WITH US | version 2.1|
 +--------------------------------------+''')
 
 slowprint(''' \033[93m
@@ -66,51 +66,50 @@ choice = input("\033[93mDo You Want to Install All Packages [y/n] : ")
 if choice == 'n' : sys.exit()
 if choice == 'y' : os.system ("apt update")
 os.system ("apt upgrade -y")
-slowprint('''\033[93m WAIT FOR NEXT...create by sajim''')
+slowprint('''\033[93m apt install python -y''')
 os.system ("apt install python -y")
-slowprint('''\033[96m WAIT FOR NEXT...create by sajim''')
+slowprint('''\033[96m apt install python2 -y''')
 os.system ("apt install python2 -y")
-slowprint('''\033[93m WAIT FOR NEXT...create by sajim''')
+slowprint('''\033[93m apt install php -y''')
 os.system ("apt install php -y")
-slowprint('''\033[96m WAIT FOR NEXT...create by sajim''')
+slowprint('''\033[96m apt install python-dev -y''')
 os.system ("apt install python-dev -y")
-slowprint('''\033[93m WAIT FOR NEXT...create by sajim''')
+slowprint('''\033[93m apt install python3 -y''')
 os.system ("apt install python3 -y")
-slowprint('''\033[96m WAIT FOR NEXT...create by sajim''')
+slowprint('''\033[96m apt install java -y''')
 os.system ("apt install java -y")
-slowprint('''\033[93m WAIT FOR NEXT...create by sajim''')
+slowprint('''\033[93m apt install git -y''')
 os.system ("apt install git -y")
-slowprint('''\033[96m WAIT FOR NEXT...create by sajim''')
+slowprint('''\033[96m apt install perl -y''')
 os.system ("apt install perl -y")
-slowprint('''\033[93m WAIT FOR NEXT...create by sajim''')
+slowprint('''\033[93m apt install bash''')
 os.system ("apt install bash")
-slowprint('''\033[96m WAIT FOR NEXT...create by sajim''')
+slowprint('''\033[96m apt install nano -y''')
 os.system ("apt install nano -y")
-slowprint('''\033[96m WAIT FOR NEXT...create by sajim''')
+slowprint('''\033[96m apt install curl -y''')
 os.system ("apt install curl -y")
-slowprint('''\033[93m WAIT FOR NEXT...create by sajim''')
+slowprint('''\033[93m apt install openssl -y''')
 os.system ("apt install openssl -y")
-slowprint('''\033[96mWAIT FOR NEXT...create by sajim''')
+slowprint('''\033[96m apt install openssh -y''')
 os.system ("apt install openssh -y")
-slowprint('''\33[93m WAIT FOR NEXT...create by sajim''')
+slowprint('''\33[93m apt install wget -y''')
 os.system ("apt install wget -y")
-slowprint('''\033[96m WAIT FOR NEXT...create by sajim''')
+slowprint('''\033[96m apt install clang -y''')
 os.system ("apt install clang -y")
-slowprint('''\033[93m WAIT FOR NEXT...create by sajim''')
+slowprint('''\033[93m apt install nmap -y''')
 os.system ("apt install nmap -y")
-slowprint('''\033[96m WAIT FOR NEXT...create by sajim''')
+slowprint('''\033[96m apt install w3m -y''')
 os.system ("apt install w3m -y")
-slowprint('''\033[93m WAIT FOR NEXT...create by sajim''')
+slowprint('''\033[93m apt install hydra -y''')
 os.system ("apt install hydra -y")
-slowprint('''\033[96m Insttaling hydra tool...create by sajim''')
+slowprint('''\033[96m apt install ruby -y''')
 os.system ("apt install ruby -y")
-slowprint('''\033[93m WAIT FOR NEXT...create by sajim''')
+slowprint('''\033[93m apt install macchanger -y''')
 os.system ("apt install macchanger -y")
-slowprint('''\033[96m WAIT FOR NEXT...create by sajim''')
-os.system ("apt install host -y")
-slowprint('''\033[93m WAIT FOR NEXT...create by sajim''')
+
+slowprint('''\033[93m apt install dnsutils -y''')
 os.system ("apt install dnsutils -y")
-slowprint('''\033[96m WAIT FOR NEXT...create by sajim''')
+slowprint('''\033[96m apt install coreutils -y''')
 os.system ("apt install coreutils -y")
 slowprint('''\033[93m ("Allow the Button For Access the Storage in Termux")''')
 
@@ -122,8 +121,17 @@ def slowprint(s):
     for c in s + '\n' :
         sys.stdout.write(c)
         sys.stdout.flush()
-        time.sleep(8. / 100)
-slowprint('''[ {All Compelete}
+        time.sleep(3. / 100)
+slowprint('''[ {All Compelete
+Coded By Sajim STAY WITH US
+███████╗ █████╗      ██╗██╗███╗   ███╗
+██╔════╝██╔══██╗     ██║██║████╗ ████║
+███████╗███████║     ██║██║██╔████╔██║
+╚════██║██╔══██║██   ██║██║██║╚██╔╝██║
+███████║██║  ██║╚█████╔╝██║██║ ╚═╝ ██║
+╚══════╝╚═╝  ╚═╝ ╚════╝ ╚═╝╚═╝     ╚═╝
+                                      
+}
 ''')
 
 input("\n\nPress the enter key to exit : ")
